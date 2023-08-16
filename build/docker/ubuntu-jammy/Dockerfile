@@ -15,7 +15,7 @@
 # with some updated packages.
 #
 
-FROM buildpack-deps:jammy-scm
+FROM buildpack-deps:22.04-scm
 LABEL MAINTAINER="Apache Thrift <dev@thrift.apache.org>"
 ENV DEBIAN_FRONTEND=noninteractive
 
